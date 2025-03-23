@@ -26,3 +26,16 @@ Demographic info about customers – gender, age range, and if they have partner
 Libraries: sklearn, Matplotlib, pandas, seaborn, and NumPy
 
 # Few glimpses of EDA:
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/6999a1d13bf37fbb31b3307bea3f4e0528749199/Output/Churn%20Distribution.png)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/6999a1d13bf37fbb31b3307bea3f4e0528749199/Output/distributionWRTGender.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/6999a1d13bf37fbb31b3307bea3f4e0528749199/Output/Contract%20distribution.png)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/6999a1d13bf37fbb31b3307bea3f4e0528749199/Output/payment%20methods.png)
+
+[intro](https://github.com/Abhishekshaw2002/TelecomCustomer_ChurnPrediction/blob/6999a1d13bf37fbb31b3307bea3f4e0528749199/Output/payment%20ethods%20with%20respectto%20churn.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/6999a1d13bf37fbb31b3307bea3f4e0528749199/Output/internet%20services.PNG)
+
