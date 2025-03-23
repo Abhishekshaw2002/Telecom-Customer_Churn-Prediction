@@ -122,6 +122,7 @@ New customers are more likely to churn.
 
 
 # Final confusion matrix we got:
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/37f998700958d4a910b920a1b6c94f7bf94d8564/Output/confusion%20matrix.PNG)
 From the confusion matrix we can see that: There are total 1383+166=1549 actual non-churn values and the algorithm predicts 1400 of them as non churn and 149 of them as churn. While there are 280+280=561 actual churn values and the algorithm predicts 280 of them as non churn values and 281 of them as churn values.
 
 # Optimizations
