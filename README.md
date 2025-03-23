@@ -73,3 +73,6 @@ As shown in following chart, customers with no TechSupport are most likely to mi
 Customers with higher Monthly Charges are also more likely to churn.
 New customers are more likely to churn.
 
+# Machine Learning Model Evaluations and Predictions:
+
+
