@@ -75,4 +75,54 @@ New customers are more likely to churn.
 
 # Machine Learning Model Evaluations and Predictions:
 
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Model%20evaluation.PNG)
+
+# Results after K fold cross validation:
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/LR.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/KNN.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Naive%20Bayes.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Decision%20trees.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Random%20Forest.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Adaboost.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Gradient%20boost.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/Voting%20Classifier.PNG)
+
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/2c80da08409b36476d1de3e66b50ef2b6af84d85/Output/confusion_matrix_models.PNG)
+
+#Final Model: Voting Classifier
+ We have selected Gradient boosting, Logistic Regression, and Adaboost for our Voting Classifier.
+     from sklearn.ensemble import VotingClassifier
+    clf1 = GradientBoostingClassifier()
+    clf2 = LogisticRegression()
+    clf3 = AdaBoostClassifier()
+    eclf1 = VotingClassifier(estimators=[('gbc', clf1), ('lr', clf2), ('abc', clf3)], voting='soft')
+    eclf1.fit(X_train, y_train)
+    predictions = eclf1.predict(X_test)
+    print("Final Accuracy Score ")
+    print(accuracy_score(y_test, predictions))
+
+
+    Final Score 
+{'LogisticRegression': [0.841331397558646, 0.010495252078550477],
+ 'KNeighborsClassifier': [0.7913242024807321, 0.008198993337848612],
+ 'GaussianNB': [0.8232386881685605, 0.00741678015498337],
+ 'DecisionTreeClassifier': [0.6470213137060805, 0.02196953973039052],
+ 'RandomForestClassifier': [0.8197874155380965, 0.011556155864106703],
+ 'AdaBoostClassifier': [0.8445838813774079, 0.01125665302188384],
+ 'GradientBoostingClassifier': [0.844630629931458, 0.010723107447558198],
+ 'VotingClassifier': [0.8468096379573085, 0.010887508320460332]}
+
+Final confusion matrix we got:
+From the confusion matrix we can see that: There are total 1383+166=1549 actual non-churn values and the algorithm predicts 1400 of them as non churn and 149 of them as churn. While there are 280+280=561 actual churn values and the algorithm predicts 280 of them as non churn values and 281 of them as churn values.
+
+# Optimizations
+We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
 
