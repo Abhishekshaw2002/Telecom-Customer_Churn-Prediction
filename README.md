@@ -48,24 +48,28 @@ Customers without dependents are more likely to churn. Churn distribution w.r.t 
 
 # Online Security:
 As shown in following graph, most customers churn due to lack of online security
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/onlineSecurity.PNG)
 
 # Senior Citizen:
 Most of the senior citizens churn; the number of senior citizens are very less in over all customer base.
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/seniorCitzen.PNG
+)
 
 # Paperless Billing:
 Customers with Paperless Billing are most likely to churn.
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/billing.PNG)
+
 
 # Tech support:
 As shown in following chart, customers with no TechSupport are most likely to migrate to another service provider.
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/techSupport.PNG)
 
 # Distribution w.r.t Charges and Tenure:
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/carges%20distribution.PNG)
 
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/total%20charges.PNG)
 
-![intro]
+![intro](https://github.com/Abhishekshaw2002/Telecom-Customer_Churn-Prediction/blob/543524594cdfd1f9b2ed0004d867c73944699ac7/Output/tenure%20and%20churn.PNG)
+Customers with higher Monthly Charges are also more likely to churn.
+New customers are more likely to churn.
 
