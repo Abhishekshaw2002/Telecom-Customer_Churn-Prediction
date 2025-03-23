@@ -46,4 +46,26 @@ Several customers choose the Fiber optic service and it's also evident that the 
 # Dependent distribution:
 Customers without dependents are more likely to churn. Churn distribution w.r.t dependents
 
+# Online Security:
+As shown in following graph, most customers churn due to lack of online security
+![intro]
+
+# Senior Citizen:
+Most of the senior citizens churn; the number of senior citizens are very less in over all customer base.
+![intro]
+
+# Paperless Billing:
+Customers with Paperless Billing are most likely to churn.
+![intro]
+
+# Tech support:
+As shown in following chart, customers with no TechSupport are most likely to migrate to another service provider.
+![intro]
+
+# Distribution w.r.t Charges and Tenure:
+![intro]
+
+![intro]
+
+![intro]
 
